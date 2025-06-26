@@ -43,6 +43,7 @@ def opcion_uno():
         else:
             print('Código validado.')
             print('¡Entrada registrada con éxito para “los Fortificados”!')
+            break
     return
 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### 
 
@@ -70,6 +71,7 @@ def opcion_dos():
         else:
             print('Código validado.')
             print('¡Entrada registrada con éxito para “los Iluminados”!')
+            break
     return
 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### 
 
@@ -91,7 +93,7 @@ def opcion_cuatro():
 while True:
     print(menu)
     try:
-        opcion = int(input('¿su eleccion?: '))
+        opcion = int(input('Ingrese opción: '))
     except:
         print('error')
     if opcion == 1:
